@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "品牌列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ms-tabs": "/components/ms-tabs/ms-tabs"
+  }
+}

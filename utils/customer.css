@@ -1,0 +1,99 @@
+/* pages/index/re/customer.wxss */
+
+.ID-mian {
+	position: relative;
+	display: block;
+	background: #fff;
+}
+
+.card-name {
+	color: #333;
+	font-size: 26rpx;
+	padding-left: 35rpx;
+	margin-bottom: 35rpx;
+	font-weight: bold;
+	padding-top: 16px;
+}
+
+.card-cont {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 15rpx;
+}
+
+.card-list {
+	width: 33%;
+	text-align: center;
+	margin: auto;
+	position: relative
+}
+
+.card-list image {
+	width: 160rpx;
+	height: 120rpx;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.card-list view {
+	text-align: center;
+	margin-top: 10rpx;
+	color: #333;
+	font-size: 25rpx;
+}
+
+page {
+	background-color: #fff;
+}
+
+.area {
+	margin-top: 25px;
+	text-align: center;
+	width: 80%;
+	background: #2f77fe;
+	border-radius: 20rpx;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 30rpx;
+
+}
+
+.item-title {
+	font-size: 30rpx;
+	color: #8a8a8a;
+	white-space: nowrap;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+
+}
+
+.item-xing {
+	color: #fc6262;
+}
+
+.enroll-item {
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	width: 86%;
+	height: 80rpx;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-left: 7%;
+	border-radius: 40px;
+	box-shadow: 1px 1px 5px #3333;
+	margin-top: 5%;
+	margin-bottom: 2%;
+
+}
+
+.item-content {
+	font-size: 28rpx;
+	color: #8a8a8a;
+	flex: 1;
+
+	padding-left: 8%;
+}

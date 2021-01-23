@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "消息通知",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ms-tabs": "/components/ms-tabs/ms-tabs"
+  }
+}

@@ -1,0 +1,293 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/loginPage/loginPage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+
+
+		},
+		// 首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "创联盟平台"
+
+			}
+		},
+		// 资讯
+		{
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "热点资讯",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 126 //距离底部多远时触发 单位px
+			}
+
+		},
+		// 分享
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 我的
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 我的订单
+		{
+			"path": "pages/mine/myorder/myorder",
+			"name": "myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 消息通知
+		{
+			"path": "pages/mine/message/message",
+			"style": {
+				"navigationBarTitleText": "消息通知",
+				"enablePullDownRefresh": true,
+				"backgroundColorTop": "#FFFFFF", // iOS下拉bounce回弹区域的颜色 (与down.bgColor同步)
+				"backgroundColorBottom": "#FFFFFF" ,// iOS上拉bounce回弹区域的颜色 (与up.bgColor同步)
+				"onReachBottomDistance":50
+			}
+		},
+		// 绑定银行卡
+		{
+			"path": "pages/mine/binding/binding",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 联系客服
+		{
+			"path": "pages/mine/contact/contact",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 详情页面
+		{
+			"path": "pages/information/newsdetail/newsdetail",
+			"style": {
+				"navigationBarTitleText": "详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 提现页面
+		{
+			"path": "pages/mine/money/money",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 品牌列表
+		{
+			"path": "pages/information/brandlist/brandlist",
+			"style": {
+				"navigationBarTitleText": "品牌列表",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 联盟奖金
+		{
+			"path": "pages/index/bonus/bonus",
+			"style": {
+				"navigationBarTitleText": "联盟奖金",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 机具采购
+		{
+			"path": "pages/index/purchase/purchase",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/index/bonuslist/bonuslist",
+			"style": {
+				"navigationBarTitleText": "赏金榜",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/mechanicstool/mechanicstool",
+			"style": {
+				"navigationBarTitleText": "我的机具",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/registrationlist/registrationlist",
+			"style": {
+				"navigationBarTitleText": "商户登记",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/registrationlist/operationStep/operationStep",
+			"style": {
+				"navigationBarTitleText": "操作步骤",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/detailsoffenrun/detailsoffenrun",
+			"style": {
+				"navigationBarTitleText": "分润详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/detailsoffenrun/monthdetails/monthdetails",
+			"style": {
+				"navigationBarTitleText": "本月分润详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/detailsoffenrun/historydetails/historydetails",
+			"style": {
+				"navigationBarTitleText": "历史分润详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/provider/provider",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/merchats/merchats",
+			"style": {
+				"navigationBarTitleText": "商户资料列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/personalinfor/personalinfor",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/realname/realname",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/index/purchaseDetail/purchaseDetail",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/addressPage/addressPage",
+			"style": {
+				"navigationBarTitleText": "地址编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/registrationlist/operationStep/machine/machine",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/registrationlist/operationStep/logbidingPage/logbidingPage",
+			"style": {
+				"navigationBarTitleText": "机具的绑定记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/registrationlist/operationStep/customer/customer",
+			"style": {
+				"navigationBarTitleText": "商户进件",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/message/detail/detail",
+			"style": {
+				"navigationBarTitleText": "创联盟平台",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor": "#2c2c2c",
+		"fontSize": "16px",
+		"borderStyle": "black",
+		"list": [{
+				"text": "首页",
+				"iconPath": "static/image/shouye.png",
+				"selectedIconPath": "static/image/shouye_select.png",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "资讯",
+				"iconPath": "static/image/zixun.png",
+				"selectedIconPath": "static/image/zixun_select.png",
+				"pagePath": "pages/information/information"
+			},
+			{
+				"text": "分享",
+				"iconPath": "static/image/fenxiang.png",
+				"selectedIconPath": "static/image/fenxiang_select.png",
+				"pagePath": "pages/share/share"
+			},
+			{
+				"text": "我的",
+				"iconPath": "static/image/wode.png",
+				"selectedIconPath": "static/image/wode_select.png",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	}
+}

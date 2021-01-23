@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/information/information",
+    "pages/share/share",
+    "pages/mine/mine",
+    "pages/mine/myorder/myorder",
+    "pages/mine/message/message",
+    "pages/mine/binding/binding",
+    "pages/mine/contact/contact",
+    "pages/information/newsdetail/newsdetail",
+    "pages/mine/money/money",
+    "pages/information/brandlist/brandlist"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#2c2c2c",
+    "fontSize": "16px",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "static/image/shouye.png",
+        "selectedIconPath": "static/image/shouye_select.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "资讯",
+        "iconPath": "static/image/zixun.png",
+        "selectedIconPath": "static/image/zixun_select.png",
+        "pagePath": "pages/information/information"
+      },
+      {
+        "text": "分享",
+        "iconPath": "static/image/fenxiang.png",
+        "selectedIconPath": "static/image/fenxiang_select.png",
+        "pagePath": "pages/share/share"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/image/wode.png",
+        "selectedIconPath": "static/image/wode_select.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap57.json"
+}

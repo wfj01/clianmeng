@@ -1,0 +1,1 @@
+<view><view class="box"><view class="box1"><image class="imagestyle" src="../../static/image/shareimage.jpg" mode></image></view><view class="buttonview"><button class="buttonstyle" type="default" data-event-opts="{{[['tap',[['saveImageClcik']]]]}}" bindtap="__e">保存图片到相册</button></view></view></view>
